@@ -40,7 +40,7 @@ a:focus{
 
 
 .comming-soon{
-	background: url(../images/bg.jpg) no-repeat center center;
+	background: url(../images/bg2.jpg) no-repeat center center;
 	background-size: cover;
 	width: 100%;
 	position: relative;
@@ -106,7 +106,7 @@ a:focus{
 }
 
 .comming-soon-info h2{
-	font-size: 44px;
+	font-size: 60px;
 	color: #fff;
 	font-weight: 400;
 	line-height: 1.4em;
@@ -143,14 +143,14 @@ a:focus{
 }
 
 .opening-date p{
-	font-size: 28px;
+	font-size: 38px;
 	font-weight: 500;
 	color: #fff;
 }
 
 .opening-date p span{
 	display: block;
-	font-size: 14px;
+	font-size: 20px;
 	font-weight: 300;
 	letter-spacing: 0.02em;
 }
@@ -194,7 +194,10 @@ a:focus{
 	padding-left: 4px;
 	font-size: 20px;
 }
-
+.address-field{
+	color: white;
+		font-size: 20px
+}
 .btn-intro a{
 	color: #fff;
 }
@@ -202,21 +205,21 @@ a:focus{
 .contact-form{
 	background: #fff;
 	padding: 50px 40px;
-	max-width: 360px;
+	max-width: 420px;
 	margin: 0 auto;
 	text-align: center;
 }
 
 .title{
 	color: #232323;
-	font-size: 22px;
+	font-size: 30px;
 	text-transform: uppercase;
 	font-weight: 600;
-	margin-bottom: 30px;
+	margin-bottom: 15px;
 }
 
 .contact-form p{
-	font-size: 13px;
+	font-size: 17px;
 	color: #918989;
 }
 
@@ -263,7 +266,6 @@ a:focus{
 	background: #212121;
 }
 
-
 /****************************************
 		Responsive Media Query
 ****************************************/
@@ -275,6 +277,7 @@ a:focus{
 	}
 
 }
+
 
 @media only screen and (max-width:768px){
 	.comming-soon-info h2{
@@ -336,4 +339,66 @@ a:focus{
 	.timer .timer-wrapper .text{
 		font-size: 12px;
 	}
+}
+.contact-details {
+	color: black !important;
+	font-size: 20px !important;
+}
+
+.contact-header {
+	padding-bottom: 30px !important;
+}
+@media only screen and (min-width:991px) and (max-width:1199px){	
+	.comming-soon-info h2 span{
+			font-size: 50px;
+			color: #fff;
+		}
+				.title {
+					color: #232323;
+					font-size: 25px;
+				}
+.contact-form p {
+	font-size: 16px;
+	color: #918989;
+}
+.contact-details p a {
+	color: black !important;
+	font-size: 16px !important;
+}
+.contact-details .contact-links {
+	font-size: 16.5px !important;
+}
+
+.contact-header {
+	padding-bottom: 19px !important;
+}
+.opening-date p {
+	font-size: 25px;
+}
+.opening-date p span {
+	font-size: 17px;
+}
+.timer .timer-wrapper .time {
+	font-size: 20px;
+}
+.address-field{
+	font-size: 15px;
+}
+.contact-form {
+	max-width: 360px;
+}
+}
+.contact-details{
+	text-align:start;
+}
+.contact-details .contact-links {
+	color: black;
+	display: inline-block;
+	padding-bottom: .8rem;
+}
+.contact-details .contact-links:hover{
+	color: #0095ff!important;
+}
+.fa{
+	padding-right: 10px;
 }
