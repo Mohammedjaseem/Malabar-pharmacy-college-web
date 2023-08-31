@@ -356,7 +356,8 @@ a:focus{
 			font-size: 25px;
 		}
 }
-@media only screen and (min-width:991px) and (max-width:1199px){	
+
+@media only screen and (min-width:992px) and (max-width:1199px){	
 	.comming-soon-info h2 span{
 			font-size: 50px;
 			color: #fff;
@@ -427,4 +428,50 @@ a:focus{
 	color: #fff;
 	font-weight: 300;
 	/* text-decoration: underline; */
+}
+
+@media only screen and (min-width:330px) and (max-width:991px) {
+	.contact-form p {
+		font-size: 16px;
+		color: #918989;
+	}
+		.address-field {
+			font-size: 17px;
+			line-height: 1.7;
+		}
+				.comming-soon-info h2 span {
+					font-size: 30px;
+					color: #fff;padding-top: 20px;
+				}
+			
+.coming-soon-data {
+	padding: 20px 0;
+	color: #fff;
+	font-weight: 300;
+	/* text-decoration: underline; */
+}
+	.contact-details p a {
+		color: black !important;
+		font-size: 16px !important;
+	}
+
+	.contact-details .contact-links {
+		font-size: 16.5px !important;
+	}
+	.contact-details .contact-links-alt {
+		font-size: 14px !important;
+	}
+
+
+	.contact-header {
+		padding-bottom: 19px !important;
+	}
+
+	.opening-date p {
+		font-size: 20px;
+	}
+
+	.opening-date p span {
+		font-size: 15px;
+	}
 }
