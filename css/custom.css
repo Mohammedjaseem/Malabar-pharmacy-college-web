@@ -352,6 +352,9 @@ a:focus{
 	.contact-details .contact-links-alt {
 		font-size: 16px !important;
 	}
+		.opening-date p {
+			font-size: 25px;
+		}
 }
 @media only screen and (min-width:991px) and (max-width:1199px){	
 	.comming-soon-info h2 span{
@@ -379,7 +382,7 @@ a:focus{
 	padding-bottom: 19px !important;
 }
 .opening-date p {
-	font-size: 25px;
+	font-size: 22px;
 }
 .opening-date p span {
 	font-size: 17px;
@@ -419,4 +422,9 @@ a:focus{
 }
 .fa{
 	padding-right: 10px;
+}
+.coming-soon-data{
+	color: #fff;
+	font-weight: 300;
+	/* text-decoration: underline; */
 }
